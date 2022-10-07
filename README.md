@@ -1,2 +1,2 @@
-# sitePessoal
-Repositório destinado ao meu site pessoal.
+# BEM VINDO
+Este repositório tem como objetivo demonstrar os avanços do meu site pessoal
