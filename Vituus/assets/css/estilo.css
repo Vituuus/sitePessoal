@@ -1,0 +1,250 @@
+/*Configurações Gerais*/
+html, body, #home, #sobre, #sobreSite, .separacao{
+    height: 100%;
+}
+body{
+    background: url(../img/fundoSpace.png),
+                linear-gradient(75deg, #ff4169, #7c26f8);
+    background-attachment: fixed;
+    font-family:  Helvetica, Arial, sans-serif ;
+}
+/*Fim Configurações Gerais*/
+/*Barra de Navegação*/
+.navbar-toggler.hamburguer{
+    color: #fff;
+    opacity: 0.6;
+}
+nav.transparencia{
+    background: rgba(0, 0, 0, 0.5);
+}
+.nav-item.nav-link{
+    color: white;
+}
+.nav-item.nav-link:hover{
+    color: royalblue;
+}
+.logo{
+    width: 147px;
+}
+/*Fim Barra de Navegação*/
+/*Home*/
+figure{
+    
+    padding: 50px;
+    background: #fff;
+}
+.bemVindo, #sobreSite, .sobreMim{
+    text-align: center;
+}
+.seta{
+    font-size: 3em;
+    color: black;
+}
+.seta:hover{
+    --fa-animation-duration: 0s;
+}
+h1{
+    font-weight: 900;
+    letter-spacing: -0.05em;
+    color: white;
+}
+p{
+    font-weight: 600;
+    color: white;
+}
+/*Fim Home*/
+/*Sobre Mim*/
+#sobreSite{
+    background: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.sobreoSite h1, p{
+    color: #000;
+    margin-top: 35px;
+
+}
+.sobreoSite h1 {
+    font-size: 4em;
+
+}
+#sobre{
+    background: #fff;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+.sobreMim i{
+    font-size: 3em;
+    color: #7c26f8;
+}
+.sobreMim h1{
+    color: black;
+    font-size: 1.5em;
+}
+.sobreMim:hover .destaque{
+    text-decoration: underline;
+    color: red;
+    
+}
+.sobreMim p{
+    color: #000;
+    font-size: small;
+}
+
+/*Estilização para dispositivos X-pequenos*/
+@media (min-width: 0) and (max-width: 576px) { 
+    .bemVindo h1{
+        font-size: 3em;
+    }
+    .sobreMim h1{
+        font-size: medium;
+    }
+    .bemVindo p{
+        font-size: 1.0em;
+    }
+    .ajustarSeta{
+        justify-content: center; 
+    }
+    .seta{
+        margin-top: 20px;
+        font-size: 3em;
+    }
+    .sobreoSite p{
+        font-size: small;
+    }
+    .sobreoSite h1{
+        margin-top: 25px;
+        font-size: 3em;
+    }
+    .sobreMim h1{
+        font-size: smaller;
+    }
+    .sobreMim p{
+        font-size: x-small;
+        margin: auto;
+    }
+    .sobreMim i{
+        display: none;
+    }
+    .destaque{
+        text-decoration: underline;
+        color: red;
+    }
+ }
+/*Estilização para dispositivos pequenos*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .bemVindo h1{
+        font-size: 3em;
+    }
+    .sobreMim h1{
+        font-size: medium;
+    }
+    .bemVindo p{
+        font-size: 1.0em;
+    }
+    .ajustarSeta{
+        justify-content: center; 
+    }
+    .seta{
+        margin-top: 20px;
+        font-size: 3em;
+    }
+    .sobreoSite p{
+        font-size: small;
+    }
+    .sobreoSite h1{
+        margin-top: 25px;
+        font-size: 3em;
+    }
+    .sobreMim h1{
+        font-size: large;
+        margin-top: 15px;
+    }
+    .sobreMim a{
+        display: none;
+    }
+    .sobreMim p{
+        font-size: x-small;
+        margin: auto;
+    }
+
+    .sobreMim i{
+        display: none;
+    }
+    .destaque{
+        text-decoration: underline;
+        color: red;
+    }
+ }
+ /*Estilização para dispositivos médios*/
+@media (min-width: 768px) and (max-width: 991.98px){ 
+    .bemVindo h1{
+        font-size: 4em ;
+    }
+    .bemVindo p{
+        font-size: 1.3em;
+    }
+    .ajustarSeta{
+        justify-content: center; 
+    }
+    .seta{
+        margin-top: 20px;
+        font-size: 3em;
+    }
+    .sobreoSite p{
+        font-size: small;
+    }
+    .sobreoSite h1{
+        margin-top: 25px;
+        font-size: 2.7em;
+        
+    }
+    .sobreMim h1{
+        font-size: medium;
+    }
+    .sobreMim p{
+        font-size: x-small;
+        margin: auto;
+    }
+    .destaque{
+        text-decoration: underline;
+        color: red;
+    }
+ }
+/*Estilização para dispositivos grandes*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .bemVindo h1{
+        font-size: 5em;
+    }
+    .bemVindo p{
+        font-size: 1.5em;
+    }
+    .sobreoSite p{
+        font-size: small;
+    }
+    .sobreoSite h1{
+        margin-top: 25px;
+        font-size: 2.7em;
+        
+    }
+ }
+/*Estilização para dispositivos X-grandes*/
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+    .bemVindo h1{
+        font-size: 6em;
+    }
+    .bemVindo p{
+        font-size: 1.5em;
+    }
+ }
+/*Estilização para dispositivos XX-grandes*/
+@media (min-width: 1400px) { 
+    .bemVindo h1{
+        font-size: 6em;
+    }
+    .bemVindo p{
+        font-size: 1.8em;
+    }
+ }
+
+ 
